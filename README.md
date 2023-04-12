@@ -1,7 +1,7 @@
 # imimagener
 This is a AI Image Generator that utilizes OPEN AI capabilities. Paste your own OPEN AI API KEY in the .env file and enjoy your own AI Image Generator!!
 
-# <i/m>Imimagener
+# <i/m>Imagener
 This is a multi-language translator that utilizes OPEN AI capabilities. Paste your own OPEN AI API KEY in the .env file and enjoy your own OPEN AI translator!
 
 # How to use
