@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <link rel="icon" type="image/svg+xml" href="/avatar.svg" />
+  <link rel="stylesheet" href="css/style.css" />
+  <link rel="stylesheet" href="css/spinner.css" />
+
+  <script src="js/main.js" defer></script>
+  <title>&lt;i/m&gt;Imagener</title>
+</head>
+
+<body>
+  <main>
+    <section class="showcase">
+      <form id="image-form">
+
+        <br />
+        <br />
+
+
+        <div className="banner" >
+          <img src="banner.png" alt="banner" />
+        </div>
+
+        <br />
+
+        <hr class="separator" />
+        <br />
+
+        <div class="form-control">
+          <input type="text" id="prompt" placeholder="Enter image description here..." />
+        </div>
+        <div class="form-control">
+          <select name="size" id="size">
+            <option value="small" selected>Small (256x256)</option>
+            <option value="medium">Medium (512x512)</option>
+            <option value="large">Large (1024x1024)</option>
+          </select>
+        </div>
+        <button type="submit" class="btn">Generate</button>
+
+        <br />
+
+        <hr class="separator" />
+
+        
+        <section class="image">
+          <img class="image-container">
+            <p class="msg"></p>
+            <img src="" alt="" id="image"></img>
+            
+          </div>
+        </section>
+        <br />
+      </form>
+    </section>
+
+  </main>
+
+  <div class="spinner"></div>
+</body>
+
+</html>
