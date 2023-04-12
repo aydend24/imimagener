@@ -11,7 +11,7 @@ This is a multi-language translator that utilizes OPEN AI capabilities. Paste yo
 - Unzip the zip file and put it in the same as folder with the other file
 - Copy your Open AI API Key to the .env file
 ## 3. Launch VS Code and open your folder
-- User Terminal in VS Code, input "cd your_folder_path" and click Enter
+- User Terminal in VS Code, input "cd your_folder_path" in .env file and click Enter
 - Input "npm start" and click Enter
 - Copy the local host address to your browser
 ## 4. You're all set, enjoy!
